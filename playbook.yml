@@ -1,0 +1,9 @@
+- hosts: ansu161 
+  user: ansible
+  connection: ssh
+  become: true
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress
